@@ -17,3 +17,7 @@ while (cont <= 7 and nivel < 9):
         print("Você está na sala: {0}." .format(nivel))
         print("Você será redirecionado para a sala: 8 ")
         nivel = 8
+if(cont > 7):
+    print("Você perdeu! Ultrapassou as 6 tentativas possíveis.")
+else:
+    print("Você chegou a sala 9!")
